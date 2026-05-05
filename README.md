@@ -99,7 +99,7 @@ npm start
 
 ---
 
-## 🌐 Deployment
+## Deployment
 
 Deployment is in progress.
 The application is fully functional in local environment.
@@ -117,7 +117,7 @@ The application is fully functional in local environment.
 * Better UI enhancements
 
 
-## 🙌 Acknowledgements
+## Acknowledgements
 
 This project was developed as part of a full-stack learning and implementation exercise.
 
