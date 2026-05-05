@@ -1,0 +1,146 @@
+/* Background */
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #74ebd5, #9face6);
+}
+
+/* Container */
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* Card */
+.card {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 16px;
+  margin-bottom: 25px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Title */
+h2 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+/* Inputs */
+input {
+  padding: 10px;
+  margin: 5px 10px 10px 0;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  width: 220px;
+}
+
+/* Buttons */
+button {
+  padding: 10px 16px;
+  background: linear-gradient(45deg, #4CAF50, #66bb6a);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+button:hover {
+  transform: translateY(-2px);
+}
+
+/* Logout */
+.logout-btn {
+  float: right;
+  background: #ff4d4d;
+}
+
+.logout-btn:hover {
+  background: #e60000;
+}
+
+/* Project List */
+.project-item {
+  list-style: none;
+  padding: 12px;
+  margin-bottom: 8px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.project-item:hover {
+  background: #f0f0f0;
+}
+
+.active-project {
+  background: #d1f7c4;
+  font-weight: bold;
+}
+
+/* Task Row */
+.task-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 10px;
+  background: #f9f9f9;
+}
+
+/* Status colors */
+.status-TODO {
+  color: gray;
+}
+
+.status-IN_PROGRESS {
+  color: orange;
+}
+
+.status-DONE {
+  color: green;
+  font-weight: bold;
+}
+
+/* Dropdown */
+select {
+  padding: 6px;
+  border-radius: 6px;
+}
+
+/* Section titles */
+.section-title {
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+.auth-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth-card {
+  width: 350px;
+  padding: 30px;
+  border-radius: 16px;
+  background: white;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.auth-card input {
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.auth-card button {
+  width: 100%;
+}
+
+.auth-title {
+  margin-bottom: 20px;
+}
